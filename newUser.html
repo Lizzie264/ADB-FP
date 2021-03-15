@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Helper</title>
+    <link href="CSS/styles.css" rel="stylesheet">
+    <script type="application/javascript" src="js/newUser.js"></script>
+</head>
+<body id="newUserPage">
+    <div>
+        <!-- MUST CREATE CSS FOR H1 -->
+        <h2>Nuevo Usuario</h2>
+    </div>
+    <!-- CSS FOR IMAGE TO THE SIDE? -->
+    <form action="" method="">
+        <div >
+            <input type="text" placeholder="Nickname" name="nickname" id="nickname"/>
+        </div>
+        <div>
+            <input type="text" placeholder="Nombre(s)" name="nameUser" id="nameUser"/>
+            <input type="text" placeholder="Apellido(s)" name="surnameUser" id="surnameUser"/>
+        </div>
+        <div>
+            <input type="text" placeholder="Correo" name="mailUser" id="mailUser"/>
+        </div>
+        <div>
+            <input type="password" placeholder="Contraseña" name="passwordUser" id="passwordUser"/>
+        </div>
+        <div>
+            <input type="password" placeholder="Confirme contraseña" name="reinforcePassword" id="reinforcePassword"/>
+        </div>
+        <!-- MUST CREATE SOMETHING TO SEND INFO TO DB -->
+        <!-- MUST DO VALIDATION OF DATA AND PASSWORD -->
+        <div>
+            <a href="login.html">
+                <input type="button" value="Regresar" id="btnBack" class="btnGreen">
+            </a>
+            <input type="button" value="Crear Usuario" id="btnRegisUser" class="btnPurple">
+        </div>
+    </form>   
+</body>
+</html>

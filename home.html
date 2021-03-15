@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Helper</title>
+    <link href="CSS/styles.css" rel="stylesheet">
+</head>
+<body id="homePage">
+    <!-- MUST FIGURE A WAY TO DO SIDE BANNER WITH CSS-->
+    <div class="sideBanner">
+        <img src="images/rsz_surveyicon.png" alt="Icono de encuesta (A CAMBIAR)" class="centerContainer">
+        <!-- PUT IN USER NICKNAME -->
+        <!-- https://stackoverflow.com/questions/40525339/how-can-i-display-a-variable-content-in-html -->
+        <h4 class="sideBannerElement">User</h4>
+        <!-- PUT SURVEY NUMBER -->
+        <!-- MAYBE WE COULD DO IT WITH A SCRIPT THAT CREATES THIS WHOLE THING -->
+        <!-- Like, put an id to a span in here or the div itself and create the structure somewhere else -->
+        <h4 class="sideBannerElement">Encuestas Creadas: </h4>
+        <!-- CHANGE TO OFF  -->
+        <a href="login.html">
+            <img src="images/rsz_offPurpleIcon.png" alt="Icono de cerrar sesión" class="centerContainer">
+        </a>
+    </div>
+    <div>
+        <div>
+            <h1>¡BIENVENIDO!</h1>
+        </div>  
+        <div class ="centerContainer">
+            <a href="createSurvey.html"><h2 class="textLink">Crear</h2></a>
+        </div>
+        <div class ="centerContainer">
+            <a href="goToSurvey.html"><h2 class="textLink">Contestar</h2></a>
+        </div>  
+        <!--<input type="button" value="Crear Encuesta" id="btnGoToCreatePage" class="btnBlue">
+        <div>
+            <input type="button" value="Llenar Encuesta" id="btnGoToCodePage" class="btnBlue">
+        </div>-->
+    </div>
+</body>
+</html>

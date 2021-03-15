@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="application/javascript" src="JS/generateQuestion.js"></script>
+    <title>Survey Helper</title>
+    <link href="CSS/styles.css" rel="stylesheet">
+</head>
+<body id="createPage">
+    <div>
+        <h2>Crear Encuesta</h2>
+    </div>
+    <form name="register" id="register">
+       <input type="text" placeholder="Titulo" name="nameSurveys" id="nameSurveys">
+       <!-- MUST HAVE VALIDATION DE CODE CON DB -->
+       <input type="text" placeholder="Codigo para compartir" name="codeSurvey" id="codeSurvey">
+       <div>
+           <input type="text" placeholder="Descripcion" name="description" id="description">
+       </div>
+       <!-- Area to draw table -->
+        <div id="questionContenedor"></div>   
+       <label for="SelectQuest">Selecciona un tipo de pregunta: </label>
+       <div>
+        <select id="SelectQuest">
+            <!-- CREATE WARNING IF NOT OPTION -->
+            <option value="">--Selecciona una opcion--</option>
+            <option value="option">Opcion Multiple</option>
+            <option value="selection">Seleccion Multiple</option>
+            <option value="open">Pregunta Abierta</option>
+        </select>
+        <!-- MUST CREATE SCRIPT TO ADD QUESTION -->
+        <input type="button" value="Agregar" name="btnAddQuest" onclick="createQuest()" class="btnPurple">
+        </div>
+        <div id="numAnswersContenedor"></div>   
+    </form>  
+    <input type="button" value="Guardar Encuesta" name="btnSaveQuest" id="btnSaveQuest" class="btnGreen" onclick="saveSurvey()">
+    <a href="home.html"><input type="button" value="Regresar" name="btnGoHome" class="btnGreen"></a>
+</body>
+</html>

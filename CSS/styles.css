@@ -1,0 +1,156 @@
+#loginPage  {
+    background-image:  url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50% 25%;
+}
+#newUserPage  {
+    background-image:  url("../images/starry_night_3.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50% 25%;
+}
+
+#goToSurvPage  {
+    background-image:  url("../images/sunset_grass.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50% 20%;
+}
+
+#fillSurvPage  {
+    background-image:  url("../images/starry_night_2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50% 25%;
+}
+
+#createPage  {
+    background-image:  url("../images/background_2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50% 25%;
+}
+
+#homePage  {
+    background-image:  url("../images/morning_grass.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50% 25%;
+}
+
+.logoImage {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1 {
+    color:ghostwhite;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 350%;
+    text-align: center;
+}
+
+h2 {
+    color:ghostwhite;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 300%;
+    text-align: justify;
+}
+
+h3 {
+    color:ghostwhite;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200%;
+    text-align: justify;
+}
+
+h4 {
+    color:ghostwhite;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 180%;
+    text-align: justify;
+}
+
+p {
+    color:#5762E9;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify
+}
+
+.hl {
+    color:#5762E9;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center
+}
+
+.justifiedd {
+    text-align:justify;
+}
+
+input {
+    padding: 5px;
+    margin: 7px;
+}
+
+label {
+    color: ghostwhite;
+}
+
+.centerContainer {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centerElement {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnGreen {
+    background-color: #14D100;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 10px;
+}
+
+.btnPurple {
+    background-color: #B1009B;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 10px;
+}
+
+.btnBlue {
+    background-color: #162EAE;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px 15px;
+}
+
+.sideBanner {
+    background-color: #323d7a;
+    height: 100%; 
+    width: 330px; 
+    position: fixed;
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.sideBannerElement {
+    padding-left: 15px;
+}
+
+.textLink {
+    background: rgba(235, 235, 235, 0.15); 
+}
