@@ -125,6 +125,8 @@ async function saveSurvey(){
     async function fetchQuestions(){
         await fetchSurvey()
 
+        let success = true
+
         for(i = 1; i <= counterQuest; i++){
             let questString = "questionNum" + i
             //console.log(questString)
@@ -144,11 +146,14 @@ async function saveSurvey(){
             }).then(res => res.json())
             .catch(error => {
                 console.log(error) 
+                success = false
                 alert("Error al registrar las preguntas")})
             .then(response => {
                 console.log(response)
             })  
         }
+
+        return success
     }
 
     async function fetchAnswers() {
