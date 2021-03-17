@@ -136,7 +136,7 @@ label {
 }
 
 .sideBanner {
-    background-color: #323d7a;
+    background-color: rgba(50, 61, 122, 0.75);
     height: 100%; 
     width: 330px; 
     position: fixed;
